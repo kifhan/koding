@@ -1,6 +1,7 @@
 {
   "swagger": "2.0",
   "basePath": "/remote.api",
+  "host": "koding.com",
   "info": {
     "title": "Koding API",
     "version": "0.0.3",
@@ -222,10 +223,6 @@
       "description": "Model JVerificationToken",
       "name": "JVerificationToken"
     }
-  ],
-  "schemes": [
-    "http",
-    "https"
   ],
   "definitions": {
     "Error": {
@@ -1577,7 +1574,7 @@
     }
   },
   "paths": {
-    "/-/version": {
+    "../-/version": {
       "get": {
         "tags": [
           "system"
